@@ -22,6 +22,35 @@
       <KategoriSub>Tükenmez Kalemler</KategoriSub>
       <UrunUrl>https://www.ilpen.com.tr/urun/pilot-g2-tukenmez-kalem</UrunUrl>
       <ResimUrl>https://www.ilpen.com.tr/images/pilot-g2.jpg</ResimUrl>
+       <UrunSecenek>
+        <Secenek>
+          <StokKodu>ILP-100001-SIYAH</StokKodu>
+          <UrunGrupKodu>ILP-100001</UrunGrupKodu>
+          <StokAdedi>50</StokAdedi>
+          <Barcode>8691234567892</Barcode>
+          <EkSecenekOzellik>
+            <Ozellik Tanim="Renk" Deger="SİYAH" />
+          </EkSecenekOzellik>
+        </Secenek>
+        <Secenek>
+          <StokKodu>ILP-100001-KIRMIZI</StokKodu>
+          <UrunGrupKodu>ILP-100001</UrunGrupKodu>
+          <StokAdedi>30</StokAdedi>
+          <Barcode>8691234567893</Barcode>
+          <EkSecenekOzellik>
+            <Ozellik Tanim="Renk" Deger="KIRMIZI" />
+          </EkSecenekOzellik>
+        </Secenek>
+        <Secenek>
+          <StokKodu>ILP-100001-MAVI</StokKodu>
+          <UrunGrupKodu>ILP-100001</UrunGrupKodu>
+          <StokAdedi>50</StokAdedi>
+          <Barcode>8691234567894</Barcode>
+          <EkSecenekOzellik>
+            <Ozellik Tanim="Renk" Deger="MAVİ" />
+          </EkSecenekOzellik>
+        </Secenek>
+      </UrunSecenek>
     </Urun>
     <!-- 2) 2 renk varyantlı ürün -->
     <Urun>
@@ -60,6 +89,15 @@
           <Barcode>8691234567893</Barcode>
           <EkSecenekOzellik>
             <Ozellik Tanim="Renk" Deger="KIRMIZI" />
+          </EkSecenekOzellik>
+        </Secenek>
+        <Secenek>
+          <StokKodu>ILP-100002-MAVI</StokKodu>
+          <UrunGrupKodu>ILP-100002</UrunGrupKodu>
+          <StokAdedi>50</StokAdedi>
+          <Barcode>8691234567894</Barcode>
+          <EkSecenekOzellik>
+            <Ozellik Tanim="Renk" Deger="MAVİ" />
           </EkSecenekOzellik>
         </Secenek>
       </UrunSecenek>
