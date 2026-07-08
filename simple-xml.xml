@@ -32,6 +32,15 @@
             <Ozellik Tanim="Renk" Deger="SİYAH" />
           </EkSecenekOzellik>
         </Secenek>
+        <Secenek>
+          <StokKodu>ILP-100001-BEJ</StokKodu>
+          <UrunGrupKodu>ILP-100001</UrunGrupKodu>
+          <StokAdedi>50</StokAdedi>
+          <Barcode>8691234567892</Barcode>
+          <EkSecenekOzellik>
+            <Ozellik Tanim="Renk" Deger="BEJ" />
+          </EkSecenekOzellik>
+        </Secenek>
       </UrunSecenek>
     </Urun>
     <!-- 2) 2 renk varyantlı ürün -->
@@ -71,15 +80,6 @@
           <Barcode>8691234567893</Barcode>
           <EkSecenekOzellik>
             <Ozellik Tanim="Renk" Deger="KIRMIZI" />
-          </EkSecenekOzellik>
-        </Secenek>
-        <Secenek>
-          <StokKodu>ILP-100002-MAVI</StokKodu>
-          <UrunGrupKodu>ILP-100002</UrunGrupKodu>
-          <StokAdedi>50</StokAdedi>
-          <Barcode>8691234567894</Barcode>
-          <EkSecenekOzellik>
-            <Ozellik Tanim="Renk" Deger="MAVİ" />
           </EkSecenekOzellik>
         </Secenek>
         <Secenek>
