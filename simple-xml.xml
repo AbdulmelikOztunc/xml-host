@@ -2,27 +2,51 @@
 <Root>
   <TedarikciKodu>BULUTSISTEM</TedarikciKodu>
   <Urunler>
-    <!-- Renksiz ürün -->
+    <!-- 1) Varyantsız ürün (UrunSecenek yok → Renksiz) -->
     <Urun>
       <UrunKartiID>100001</UrunKartiID>
-      <UrunAdi>Test Ürün Renksiz</UrunAdi>
-      <UrunGrupKodu>BS-100001</UrunGrupKodu>
+      <UrunAdi>Pilot G2 0.7 mm Tükenmez Kalem</UrunAdi>
+      <UrunGrupKodu>ILP-100001</UrunGrupKodu>
+      <Barkod>8691234567890</Barkod>
+      <Aciklama>0.7 mm uçlu, mavi mürekkepli tükenmez kalem.</Aciklama>
+      <OnYazi>Pilot G2 serisi tükenmez kalem.</OnYazi>
       <SatisFiyati>45.00</SatisFiyati>
-      <TumVaryantToplamStokAdedi>100</TumVaryantToplamStokAdedi>
-      <!-- diğer alanlar... -->
+      <AlisFiyati>30.00</AlisFiyati>
+      <KdvOrani>20</KdvOrani>
+      <KDVDahil>TRUE</KDVDahil>
+      <ParaBirimi>TL</ParaBirimi>
+      <Desi>0.05</Desi>
+      <TumVaryantToplamStokAdedi>150</TumVaryantToplamStokAdedi>
+      <KategoriID>501</KategoriID>
+      <KategoriMain>Kırtasiye</KategoriMain>
+      <KategoriSub>Tükenmez Kalemler</KategoriSub>
+      <UrunUrl>https://www.ilpen.com.tr/urun/pilot-g2-tukenmez-kalem</UrunUrl>
+      <ResimUrl>https://www.ilpen.com.tr/images/pilot-g2.jpg</ResimUrl>
     </Urun>
-
-    <!-- 2 varyantlı ürün -->
+    <!-- 2) 2 renk varyantlı ürün -->
     <Urun>
       <UrunKartiID>100002</UrunKartiID>
-      <UrunAdi>Test Ürün Varyantlı</UrunAdi>
-      <UrunGrupKodu>BS-100002</UrunGrupKodu>
+      <UrunAdi>Faber-Castell Grip 2001 Kurşun Kalem</UrunAdi>
+      <UrunGrupKodu>ILP-100002</UrunGrupKodu>
+      <Barkod>8691234567891</Barkod>
+      <Aciklama>Ergonomik tutuşlu kurşun kalem, 2B uç.</Aciklama>
+      <OnYazi>Faber-Castell Grip 2001 serisi.</OnYazi>
       <SatisFiyati>85.00</SatisFiyati>
+      <AlisFiyati>55.00</AlisFiyati>
+      <KdvOrani>20</KdvOrani>
+      <KDVDahil>TRUE</KDVDahil>
+      <ParaBirimi>TL</ParaBirimi>
+      <Desi>0.08</Desi>
       <TumVaryantToplamStokAdedi>80</TumVaryantToplamStokAdedi>
+      <KategoriID>502</KategoriID>
+      <KategoriMain>Kırtasiye</KategoriMain>
+      <KategoriSub>Kurşun Kalemler</KategoriSub>
+      <UrunUrl>https://www.ilpen.com.tr/urun/faber-castell-grip-2001</UrunUrl>
+      <ResimUrl>https://www.ilpen.com.tr/images/faber-castell-grip-2001.jpg</ResimUrl>
       <UrunSecenek>
         <Secenek>
-          <StokKodu>BS-100002-SIYAH</StokKodu>
-          <UrunGrupKodu>BS-100002</UrunGrupKodu>
+          <StokKodu>ILP-100002-SIYAH</StokKodu>
+          <UrunGrupKodu>ILP-100002</UrunGrupKodu>
           <StokAdedi>50</StokAdedi>
           <Barcode>8691234567892</Barcode>
           <EkSecenekOzellik>
@@ -30,8 +54,8 @@
           </EkSecenekOzellik>
         </Secenek>
         <Secenek>
-          <StokKodu>BS-100002-KIRMIZI</StokKodu>
-          <UrunGrupKodu>BS-100002</UrunGrupKodu>
+          <StokKodu>ILP-100002-KIRMIZI</StokKodu>
+          <UrunGrupKodu>ILP-100002</UrunGrupKodu>
           <StokAdedi>30</StokAdedi>
           <Barcode>8691234567893</Barcode>
           <EkSecenekOzellik>
