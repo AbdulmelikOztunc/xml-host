@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <TedarikciKodu>BULUTSISTEM</TedarikciKodu>
+  <Urunler>
+    <!-- Renksiz ürün -->
+    <Urun>
+      <UrunKartiID>100001</UrunKartiID>
+      <UrunAdi>Test Ürün Renksiz</UrunAdi>
+      <UrunGrupKodu>BS-100001</UrunGrupKodu>
+      <SatisFiyati>45.00</SatisFiyati>
+      <TumVaryantToplamStokAdedi>100</TumVaryantToplamStokAdedi>
+      <!-- diğer alanlar... -->
+    </Urun>
+
+    <!-- 2 varyantlı ürün -->
+    <Urun>
+      <UrunKartiID>100002</UrunKartiID>
+      <UrunAdi>Test Ürün Varyantlı</UrunAdi>
+      <UrunGrupKodu>BS-100002</UrunGrupKodu>
+      <SatisFiyati>85.00</SatisFiyati>
+      <TumVaryantToplamStokAdedi>80</TumVaryantToplamStokAdedi>
+      <UrunSecenek>
+        <Secenek>
+          <StokKodu>BS-100002-SIYAH</StokKodu>
+          <UrunGrupKodu>BS-100002</UrunGrupKodu>
+          <StokAdedi>50</StokAdedi>
+          <Barcode>8691234567892</Barcode>
+          <EkSecenekOzellik>
+            <Ozellik Tanim="Renk" Deger="SİYAH" />
+          </EkSecenekOzellik>
+        </Secenek>
+        <Secenek>
+          <StokKodu>BS-100002-KIRMIZI</StokKodu>
+          <UrunGrupKodu>BS-100002</UrunGrupKodu>
+          <StokAdedi>30</StokAdedi>
+          <Barcode>8691234567893</Barcode>
+          <EkSecenekOzellik>
+            <Ozellik Tanim="Renk" Deger="KIRMIZI" />
+          </EkSecenekOzellik>
+        </Secenek>
+      </UrunSecenek>
+    </Urun>
+  </Urunler>
+</Root>
