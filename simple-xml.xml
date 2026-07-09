@@ -16,7 +16,7 @@
       <KDVDahil>TRUE</KDVDahil>
       <ParaBirimi>TL</ParaBirimi>
       <Desi>0.05</Desi>
-      <TumVaryantToplamStokAdedi>150</TumVaryantToplamStokAdedi>
+      <TumVaryantToplamStokAdedi>50</TumVaryantToplamStokAdedi>
       <KategoriID>501</KategoriID>
       <KategoriMain>Kırtasiye</KategoriMain>
       <KategoriSub>Tükenmez Kalemler</KategoriSub>
@@ -48,7 +48,7 @@
       <KDVDahil>TRUE</KDVDahil>
       <ParaBirimi>TL</ParaBirimi>
       <Desi>0.08</Desi>
-      <TumVaryantToplamStokAdedi>80</TumVaryantToplamStokAdedi>
+      <TumVaryantToplamStokAdedi>200</TumVaryantToplamStokAdedi>
       <KategoriID>502</KategoriID>
       <KategoriMain>Kırtasiye</KategoriMain>
       <KategoriSub>Kurşun Kalemler</KategoriSub>
@@ -85,7 +85,7 @@
                 <Secenek>
           <StokKodu>ILP-100002-MOR</StokKodu>
           <UrunGrupKodu>ILP-100002</UrunGrupKodu>
-          <StokAdedi>50</StokAdedi>
+          <StokAdedi>40</StokAdedi>
           <Barcode>8691234567892</Barcode>
           <EkSecenekOzellik>
             <Ozellik Tanim="Renk" Deger="MOR" />
