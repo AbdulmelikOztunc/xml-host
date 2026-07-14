@@ -74,30 +74,12 @@
           </EkSecenekOzellik>
         </Secenek>
         <Secenek>
-          <StokKodu>ILP-100002-PEMBE</StokKodu>
-          <UrunGrupKodu>ILP-100002</UrunGrupKodu>
-          <StokAdedi>50</StokAdedi>
-          <Barcode>8691234567894</Barcode>
-          <EkSecenekOzellik>
-            <Ozellik Tanim="Renk" Deger="PEMBE" />
-          </EkSecenekOzellik>
-        </Secenek>
-                <Secenek>
-          <StokKodu>ILP-100002-MOR</StokKodu>
-          <UrunGrupKodu>ILP-100002</UrunGrupKodu>
-          <StokAdedi>40</StokAdedi>
-          <Barcode>8691234567892</Barcode>
-          <EkSecenekOzellik>
-            <Ozellik Tanim="Renk" Deger="MOR" />
-          </EkSecenekOzellik>
-        </Secenek>
-        <Secenek>
-          <StokKodu>ILP-100002-YEŞİL</StokKodu>
+          <StokKodu>ILP-100002-KREM</StokKodu>
           <UrunGrupKodu>ILP-100002</UrunGrupKodu>
           <StokAdedi>30</StokAdedi>
           <Barcode>8691234567893</Barcode>
           <EkSecenekOzellik>
-            <Ozellik Tanim="Renk" Deger="YEŞİL" />
+            <Ozellik Tanim="Renk" Deger="KREM" />
           </EkSecenekOzellik>
         </Secenek>
       </UrunSecenek>
